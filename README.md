@@ -4,7 +4,7 @@ This project is a part from class Team-Base-Project-III. It designs for allowing
 
 # Our team members:
 
-Minh Nguyen (#leader)
-Nihchal Virk
-Eric Weng 
-Gleb Ignatov
+Minh Nguyen (leader),
+Nihchal Virk,
+Eric Weng,
+Gleb Ignatov,
