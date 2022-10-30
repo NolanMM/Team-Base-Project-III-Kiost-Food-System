@@ -10,9 +10,6 @@ private:
 	float Dollar_per_Hour;
 	float Hour;
 	float Total_salary;
-
-	// Hello Phuonggggg
-
 public:
 	void set_username(string temp)
 	{
