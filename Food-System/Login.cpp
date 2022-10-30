@@ -1,24 +1,17 @@
 
 
 #include "Header.h"
-
+#include "Class.h" 
 /* This module will take responsibility for the Login session of the Staff
 1. It allows staff to register a new account
 2. It allows staff to change the password
 
 ***Note: All the Data will be store in the file and be encrypted*/
 
-
 // Create and write to the file
-int Create_New_File() {
-	// Create and open a text file
-	ofstream MyFile("filename.txt");
+int Contestant<Staff_Data>::input()
+{
 
-	// Write to the file
-	MyFile << "Files can be tricky, but it is fun enough!";
-
-	// Close the file
-	MyFile.close();
 }
 
 void Read_file()
