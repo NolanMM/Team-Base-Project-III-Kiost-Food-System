@@ -1,7 +1,8 @@
 #include "Header.h"
 
-class Staff_Data
+static class Staff_Data
 {
+	// Set the private Variables
 private:
 	string _username;
 	char _password[16];
@@ -9,6 +10,8 @@ private:
 	float Dollar_per_Hour;
 	float Hour;
 	float Total_salary;
+
+	// Hello Phuonggggg
 
 public:
 	void set_username(string temp)
@@ -21,7 +24,7 @@ public:
 	}
 	void set_password(char arr[])
 	{
-		copy(arr,arr + sizeof(arr),_password); // copy(arr1, pointer-to-just-past-arr1, arr2); // set the password into char array ( private variable)
+		copy(arr, arr + sizeof(arr), _password); // copy(arr1, pointer-to-just-past-arr1, arr2); // set the password into char array ( private variable)
 	}
 	string get_password()
 	{
@@ -30,8 +33,8 @@ public:
 	void set_ID(int id)
 	{
 		// ID = Birthday ( MM - DD - YY ) = MMDDYY (int)
-		
-		ID_key = id;	
+
+		ID_key = id;
 	}
 	int get_ID()
 	{
@@ -58,3 +61,4 @@ public:
 		return Dollar_per_Hour * Hour;					// Return the total money staff will receive
 	}
 };
+#pragma once
