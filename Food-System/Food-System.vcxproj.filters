@@ -27,7 +27,10 @@
     <ClCompile Include="BSTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Menu_Files.cpp">
+    <ClCompile Include="Encrypt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Navigation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

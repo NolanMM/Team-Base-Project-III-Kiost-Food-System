@@ -6,11 +6,19 @@ static class Staff_Data
 private:
 	string _username;
 	char _password[16];
-	int ID_key;
+	string _role;
 	float Dollar_per_Hour;
 	float Hour;
 	float Total_salary;
 public:
+	void set_role(string role)
+	{
+		_role = role;
+	}
+	string get_role()
+	{
+		return _role;
+	}
 	void set_username(string temp)
 	{
 		_username = temp;						// Set private variable
@@ -26,16 +34,6 @@ public:
 	string get_password()
 	{
 		return _password;
-	}
-	void set_ID(int id)
-	{
-		// ID = Birthday ( MM - DD - YY ) = MMDDYY (int)
-
-		ID_key = id;
-	}
-	int get_ID()
-	{
-		return ID_key;
 	}
 	void set_dollar_hour(float dollar)
 	{
@@ -57,5 +55,8 @@ public:
 	{
 		return Dollar_per_Hour * Hour;					// Return the total money staff will receive
 	}
+	int Write_The_File();
+	int Read_The_File();
 };
+
 #pragma once
