@@ -14,7 +14,7 @@ private:
 
 	struct bst_node
 	{
-        T value; /**< The value/key of the node. */
+        T Value; /**< The value/key of the node. */
         unique_ptr<bst_node> left; /**< Pointer to left subtree. */
         unique_ptr<bst_node> right; /**< Pointer to right subtree. */
 
@@ -189,7 +189,7 @@ public:
         /*
          * @Construct a new Binary Search Tree object.
          */
-        void binary_search_tree() 
+        binary_search_tree() 
         {
             root_ = nullptr;
             size_ = 0;

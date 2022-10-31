@@ -141,10 +141,9 @@
   <ItemGroup>
     <ClCompile Include="BSTree.cpp" />
     <ClCompile Include="CheckingInventory.cpp" />
-    <ClCompile Include="Encrypt.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Navigation.cpp" />
+    <ClCompile Include="Menu_Files.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class.h" />
